@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB2C7391759E3B100E10072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB2C7381759E3B100E10072 /* UIKit.framework */; };
+		9CB2C73B1759E3B100E10072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB2C73A1759E3B100E10072 /* Foundation.framework */; };
+		9CB2C73D1759E3B100E10072 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB2C73C1759E3B100E10072 /* CoreGraphics.framework */; };
+		9CB2C7431759E3B100E10072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CB2C7411759E3B100E10072 /* InfoPlist.strings */; };
+		9CB2C7451759E3B100E10072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB2C7441759E3B100E10072 /* main.m */; };
+		9CB2C7491759E3B100E10072 /* RAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB2C7481759E3B100E10072 /* RAppDelegate.m */; };
+		9CB2C74B1759E3B100E10072 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB2C74A1759E3B100E10072 /* Default.png */; };
+		9CB2C74D1759E3B100E10072 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB2C74C1759E3B100E10072 /* Default@2x.png */; };
+		9CB2C74F1759E3B100E10072 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB2C74E1759E3B100E10072 /* Default-568h@2x.png */; };
+		9CB2C7581759E3FB00E10072 /* RSpe2Tex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB2C7571759E3FB00E10072 /* RSpe2Tex.m */; };
+		9CB2C75C1759E57300E10072 /* RDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB2C75A1759E57300E10072 /* RDemoViewController.m */; };
+		9CB2C75D1759E57300E10072 /* RDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB2C75B1759E57300E10072 /* RDemoViewController.xib */; };
+		9CB2C75F1759E63A00E10072 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB2C75E1759E63900E10072 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CB2C7351759E3B100E10072 /* RSpeech2TextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSpeech2TextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB2C7381759E3B100E10072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CB2C73A1759E3B100E10072 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CB2C73C1759E3B100E10072 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CB2C7401759E3B100E10072 /* RSpeech2TextDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSpeech2TextDemo-Info.plist"; sourceTree = "<group>"; };
+		9CB2C7421759E3B100E10072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CB2C7441759E3B100E10072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CB2C7461759E3B100E10072 /* RSpeech2TextDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSpeech2TextDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9CB2C7471759E3B100E10072 /* RAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAppDelegate.h; sourceTree = "<group>"; };
+		9CB2C7481759E3B100E10072 /* RAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAppDelegate.m; sourceTree = "<group>"; };
+		9CB2C74A1759E3B100E10072 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9CB2C74C1759E3B100E10072 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9CB2C74E1759E3B100E10072 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CB2C7561759E3FB00E10072 /* RSpe2Tex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSpe2Tex.h; sourceTree = "<group>"; };
+		9CB2C7571759E3FB00E10072 /* RSpe2Tex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSpe2Tex.m; sourceTree = "<group>"; };
+		9CB2C7591759E57300E10072 /* RDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDemoViewController.h; sourceTree = "<group>"; };
+		9CB2C75A1759E57300E10072 /* RDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDemoViewController.m; sourceTree = "<group>"; };
+		9CB2C75B1759E57300E10072 /* RDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDemoViewController.xib; sourceTree = "<group>"; };
+		9CB2C75E1759E63900E10072 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB2C7321759E3B100E10072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB2C75F1759E63A00E10072 /* AVFoundation.framework in Frameworks */,
+				9CB2C7391759E3B100E10072 /* UIKit.framework in Frameworks */,
+				9CB2C73B1759E3B100E10072 /* Foundation.framework in Frameworks */,
+				9CB2C73D1759E3B100E10072 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB2C72C1759E3B000E10072 = {
+			isa = PBXGroup;
+			children = (
+				9CB2C7551759E3D600E10072 /* Classes */,
+				9CB2C73E1759E3B100E10072 /* RSpeech2TextDemo */,
+				9CB2C7371759E3B100E10072 /* Frameworks */,
+				9CB2C7361759E3B100E10072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB2C7361759E3B100E10072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2C7351759E3B100E10072 /* RSpeech2TextDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB2C7371759E3B100E10072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2C75E1759E63900E10072 /* AVFoundation.framework */,
+				9CB2C7381759E3B100E10072 /* UIKit.framework */,
+				9CB2C73A1759E3B100E10072 /* Foundation.framework */,
+				9CB2C73C1759E3B100E10072 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CB2C73E1759E3B100E10072 /* RSpeech2TextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2C7471759E3B100E10072 /* RAppDelegate.h */,
+				9CB2C7481759E3B100E10072 /* RAppDelegate.m */,
+				9CB2C73F1759E3B100E10072 /* Supporting Files */,
+				9CB2C7591759E57300E10072 /* RDemoViewController.h */,
+				9CB2C75A1759E57300E10072 /* RDemoViewController.m */,
+				9CB2C75B1759E57300E10072 /* RDemoViewController.xib */,
+			);
+			path = RSpeech2TextDemo;
+			sourceTree = "<group>";
+		};
+		9CB2C73F1759E3B100E10072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2C7401759E3B100E10072 /* RSpeech2TextDemo-Info.plist */,
+				9CB2C7411759E3B100E10072 /* InfoPlist.strings */,
+				9CB2C7441759E3B100E10072 /* main.m */,
+				9CB2C7461759E3B100E10072 /* RSpeech2TextDemo-Prefix.pch */,
+				9CB2C74A1759E3B100E10072 /* Default.png */,
+				9CB2C74C1759E3B100E10072 /* Default@2x.png */,
+				9CB2C74E1759E3B100E10072 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CB2C7551759E3D600E10072 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2C7561759E3FB00E10072 /* RSpe2Tex.h */,
+				9CB2C7571759E3FB00E10072 /* RSpe2Tex.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB2C7341759E3B100E10072 /* RSpeech2TextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB2C7521759E3B100E10072 /* Build configuration list for PBXNativeTarget "RSpeech2TextDemo" */;
+			buildPhases = (
+				9CB2C7311759E3B100E10072 /* Sources */,
+				9CB2C7321759E3B100E10072 /* Frameworks */,
+				9CB2C7331759E3B100E10072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSpeech2TextDemo;
+			productName = RSpeech2TextDemo;
+			productReference = 9CB2C7351759E3B100E10072 /* RSpeech2TextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB2C72D1759E3B000E10072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = R;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ricky;
+			};
+			buildConfigurationList = 9CB2C7301759E3B000E10072 /* Build configuration list for PBXProject "RSpeech2TextDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CB2C72C1759E3B000E10072;
+			productRefGroup = 9CB2C7361759E3B100E10072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB2C7341759E3B100E10072 /* RSpeech2TextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB2C7331759E3B100E10072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB2C7431759E3B100E10072 /* InfoPlist.strings in Resources */,
+				9CB2C74B1759E3B100E10072 /* Default.png in Resources */,
+				9CB2C74D1759E3B100E10072 /* Default@2x.png in Resources */,
+				9CB2C74F1759E3B100E10072 /* Default-568h@2x.png in Resources */,
+				9CB2C75D1759E57300E10072 /* RDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB2C7311759E3B100E10072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB2C7451759E3B100E10072 /* main.m in Sources */,
+				9CB2C7491759E3B100E10072 /* RAppDelegate.m in Sources */,
+				9CB2C7581759E3FB00E10072 /* RSpe2Tex.m in Sources */,
+				9CB2C75C1759E57300E10072 /* RDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CB2C7411759E3B100E10072 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB2C7421759E3B100E10072 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB2C7501759E3B100E10072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CB2C7511759E3B100E10072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB2C7531759E3B100E10072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSpeech2TextDemo/RSpeech2TextDemo-Prefix.pch";
+				INFOPLIST_FILE = "RSpeech2TextDemo/RSpeech2TextDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CB2C7541759E3B100E10072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSpeech2TextDemo/RSpeech2TextDemo-Prefix.pch";
+				INFOPLIST_FILE = "RSpeech2TextDemo/RSpeech2TextDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB2C7301759E3B000E10072 /* Build configuration list for PBXProject "RSpeech2TextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB2C7501759E3B100E10072 /* Debug */,
+				9CB2C7511759E3B100E10072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB2C7521759E3B100E10072 /* Build configuration list for PBXNativeTarget "RSpeech2TextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB2C7531759E3B100E10072 /* Debug */,
+				9CB2C7541759E3B100E10072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB2C72D1759E3B000E10072 /* Project object */;
+}
